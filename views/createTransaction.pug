@@ -1,0 +1,11 @@
+h1 Create
+form(action="", method="post")
+    select(name="user")
+        each user in users
+            option(value= user.name) #{user.name}
+    select(name="book")
+        each book in books
+            option(value= book.title) #{book.title}
+    br
+    br
+    input(type="submit" value="Create")

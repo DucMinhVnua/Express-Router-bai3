@@ -1,0 +1,61 @@
+{
+  "books": [
+    {
+      "title": "Naruto",
+      "id": 0.6307680564436977,
+      "description": "Truyện đáng để đọc"
+    },
+    {
+      "title": "Doremon",
+      "description": "Truyện tuổi thơ",
+      "id": 0.8227108874741844
+    },
+    {
+      "title": "Conan",
+      "description": "Truyện thám tử lừng danh conan",
+      "id": 0.20273465618187037
+    }
+  ],
+  "users": [
+    {
+      "name": "Nguyễn Đức Minh",
+      "id": 0.9197848499954706
+    },
+    {
+      "name": "Nguyễn Thanh Mai",
+      "id": 0.4569526159195343
+    }
+  ],
+  "transactions": [
+    {
+      "userId": 0.9197848499954706,
+      "bookId": 0.6307680564436977,
+      "nameUser": "Nguyễn Đức Minh",
+      "nameBook": "Naruto"
+    },
+    {
+      "userId": 0.9197848499954706,
+      "bookId": 0.8227108874741844,
+      "nameUser": "Nguyễn Đức Minh",
+      "nameBook": "Doremon"
+    },
+    {
+      "userId": 0.4569526159195343,
+      "bookId": 0.20273465618187037,
+      "nameUser": "Nguyễn Thanh Mai",
+      "nameBook": "Conan"
+    },
+    {
+      "userId": 0.4569526159195343,
+      "bookId": 0.6307680564436977,
+      "nameUser": "Nguyễn Thanh Mai",
+      "nameBook": "Naruto"
+    },
+    {
+      "userId": 0.4569526159195343,
+      "bookId": 0.8227108874741844,
+      "nameUser": "Nguyễn Thanh Mai",
+      "nameBook": "Doremon"
+    }
+  ]
+}

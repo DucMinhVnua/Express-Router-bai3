@@ -1,0 +1,7 @@
+h1 transaction
+    ul 
+        li
+            a(href="/transaction/create") Create transaction
+        hr
+        each transaction in transactions
+            li #{transaction.nameUser} đã thuê #{transaction.nameBook}
